@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
 import packageJson from "../package.json";
 const hitMePunk = localFont({
-  src: "../fonts/Hit me, punk! 01.ttf",
+  src: "../fonts/hit-me-punk.ttf",
 });
 import { Knewave } from "next/font/google";
 const knewave = Knewave({

@@ -3,10 +3,8 @@ import { cn } from "@/lib/utils";
 import { ShiftingWord } from "@/components/shifting-word";
 
 const hitMePunk = localFont({
-  src: "../fonts/Hit me, punk! 01.ttf",
+  src: "../fonts/hit-me-punk.ttf",
 });
-
-// fonts/Hit me, punk! 01.ttf
 type MenuItem = {
   label: string;
   slug: string;
