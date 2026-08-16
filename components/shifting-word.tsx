@@ -48,6 +48,7 @@ export function ShiftingWord({ text }: ShiftingWordProps) {
             group-hover:translate-x-(--x)
             group-hover:translate-y-(--y)
             group-hover:rotate-(--rotation)
+            crt-text
             ${background ? "text-white" : index == 0 ? "text-red-500" : "text-black"}
           `}
           >

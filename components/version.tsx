@@ -15,7 +15,7 @@ const knewave = Knewave({
 const Version = () => {
   return (
     <div
-      className={`${knewave.className} bottom-0 right-0 absolute text-2xl text-white bg-red-500 px-2 border-4 border-white m-2`}
+      className={`${knewave.className} bottom-0 right-0 absolute text-2xl text-white bg-red-500 px-2 border-4 border-white m-2 crt-text crt-content`}
     >
       v{packageJson.version}
     </div>
