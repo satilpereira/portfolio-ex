@@ -18,6 +18,7 @@ export default function Home() {
           alt=''
           width={800}
           height={800}
+          loading='eager'
         />
       </main>
     </div>

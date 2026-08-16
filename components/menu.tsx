@@ -48,7 +48,7 @@ const zindex = ["z-10", "z-9", "z-8", "z-7", "z-6"];
 
 const Menu = () => {
   return (
-    <div className={`${hitMePunk.className} antialiased`}>
+    <div className={`${hitMePunk.className}`}>
       <div className='perspective-dramatic transform-style-3d flex justify-center items-center w-1/2'>
         <ul className='mt-48 flex flex-col gap-2 text-ltr rotate-y-22 perspective-dramatic transform-style-3d'>
           {menuItems.map((item, i) => (
